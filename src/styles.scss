@@ -9,3 +9,8 @@ $custom-app-warn:    mat-palette($mat-red);
 $custom-app-theme: mat-light-theme($custom-app-primary, $custom-app-accent, $custom-app-warn);
 
 @include angular-material-theme($custom-app-theme);
+
+body {
+    padding: 0;
+    margin: 0;
+}
