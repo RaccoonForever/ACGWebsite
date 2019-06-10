@@ -10,7 +10,15 @@ $custom-app-theme: mat-light-theme($custom-app-primary, $custom-app-accent, $cus
 
 @include angular-material-theme($custom-app-theme);
 
+html {
+    background: url('/assets/img/light-bulb-bw.png') no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+}
+
 body {
     padding: 0;
     margin: 0;
+    background-color: #696969;
 }
